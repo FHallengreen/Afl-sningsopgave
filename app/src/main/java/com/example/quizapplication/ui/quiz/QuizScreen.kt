@@ -157,7 +157,7 @@ fun ShowFeedback(quizState: QuizState.AnswerSelected, viewModel: QuizViewModel) 
             onClick = { viewModel.completeQuiz() },
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(vertical = 8.dp)
+                .padding(vertical = 8.dp, horizontal = 40.dp)
         ) {
             Text("Finish Quiz")
         }
@@ -166,7 +166,7 @@ fun ShowFeedback(quizState: QuizState.AnswerSelected, viewModel: QuizViewModel) 
             onClick = { viewModel.moveToNextQuestion() },
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(vertical = 8.dp)
+                .padding(vertical = 8.dp, horizontal = 40.dp)
         ) {
             Text("Next Question")
         }

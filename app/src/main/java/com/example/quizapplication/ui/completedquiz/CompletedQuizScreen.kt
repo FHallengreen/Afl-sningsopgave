@@ -62,7 +62,7 @@ fun CompletedQuizScreen(
             Button(
                 onClick = { navController.navigate(QuizScreenRoute.CreateGame.routeName) },
                 modifier = Modifier
-                    .padding(16.dp)
+                    .padding(50.dp)
                     .fillMaxWidth()
             ) {
                 Text(text = "Start new Quiz")

@@ -108,6 +108,9 @@ fun CreateGame(
                 onValueChange = { selectedQuestions = it.toInt() },
                 valueRange = 5f..50f,
                 steps = 8,
+                modifier = Modifier
+                    .padding(horizontal = 40.dp)
+                    .fillMaxWidth()
             )
             Text("${selectedQuestions} questions")
 
