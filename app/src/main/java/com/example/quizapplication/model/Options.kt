@@ -9,7 +9,10 @@ enum class Category(val id: Int, val displayName: String) {
     ScienceComputers(18,"Science: Computers"),
     Geography(22,"Geography"),
     Animals(27,"Animals"),
-    Celebrities(26,"Celebrities")
+    Celebrities(26,"Celebrities"),
+    Movies(15, "Entertainment: Video Games"),
+    Gadgets(30,"Science: Gadgets"),
+    Vehicles(28,"Vehicles")
 }
 
 enum class Difficulty(val level: String) {
